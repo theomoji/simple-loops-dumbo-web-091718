@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   x = 7
   loop do
-  puts phrase
+  print phrase
   index -= 1
   break if index = 0
   end
