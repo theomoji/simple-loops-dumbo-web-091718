@@ -14,7 +14,7 @@ def loop_iterator(number_of_times)
   loop do
   print phrase
     number_of_times -= 1
-    break if index = 0
+    break if number_of_times = 0
   end
 end
 
