@@ -13,8 +13,8 @@ def loop_iterator(number_of_times)
   x = 7
   loop do
   print phrase
-  index -= 1
-  break if index = 0
+    index -= 1
+    break if index = 0
   end
 end
 
